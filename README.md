@@ -3,7 +3,7 @@
 
 simple WatchKit Remote Image Caching/Loading Lib.
 
-based on this gist: https://gist.github.com/AnYuan/1a5589aa2a6b41cd5282
+based on this gist: https://gist.github.com/AnYuan/1a5589aa2a6b41cd5282 from @AnYuan
 
 Installation:
 Just add the `HWInterfaceImage.h` and `HWInterfaceImage.m` to your watchkit extension
