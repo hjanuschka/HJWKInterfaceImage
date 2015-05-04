@@ -19,8 +19,8 @@
 		EAA498BE1AF7A31F0092DB9A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA498BC1AF7A31F0092DB9A /* Interface.storyboard */; };
 		EAA498C01AF7A31F0092DB9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA498BF1AF7A31F0092DB9A /* Images.xcassets */; };
 		EAA498C31AF7A31F0092DB9A /* Sample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EAA498AA1AF7A31F0092DB9A /* Sample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		EAA498CE1AF7A3840092DB9A /* HJWKInterfaceImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA498CD1AF7A3840092DB9A /* HJWKInterfaceImage.m */; };
-		EAA498CF1AF7A3840092DB9A /* HJWKInterfaceImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA498CD1AF7A3840092DB9A /* HJWKInterfaceImage.m */; };
+		EAA498D21AF7B5210092DB9A /* HJWKInterfaceImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA498D11AF7B5210092DB9A /* HJWKInterfaceImage.m */; };
+		EAA498D31AF7B5210092DB9A /* HJWKInterfaceImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA498D11AF7B5210092DB9A /* HJWKInterfaceImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,8 +76,8 @@
 		EAA498BB1AF7A31F0092DB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAA498BD1AF7A31F0092DB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		EAA498BF1AF7A31F0092DB9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EAA498CC1AF7A3840092DB9A /* HJWKInterfaceImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HJWKInterfaceImage.h; path = ../HJWKInterfaceImage/HJWKInterfaceImage.h; sourceTree = "<group>"; };
-		EAA498CD1AF7A3840092DB9A /* HJWKInterfaceImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HJWKInterfaceImage.m; path = ../HJWKInterfaceImage/HJWKInterfaceImage.m; sourceTree = "<group>"; };
+		EAA498D01AF7B5210092DB9A /* HJWKInterfaceImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HJWKInterfaceImage.h; path = HJWKInterfaceImage/HJWKInterfaceImage.h; sourceTree = "<group>"; };
+		EAA498D11AF7B5210092DB9A /* HJWKInterfaceImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HJWKInterfaceImage.m; path = HJWKInterfaceImage/HJWKInterfaceImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,8 +201,8 @@
 		EAA498CB1AF7A3320092DB9A /* HJWKInterfaceImage */ = {
 			isa = PBXGroup;
 			children = (
-				EAA498CC1AF7A3840092DB9A /* HJWKInterfaceImage.h */,
-				EAA498CD1AF7A3840092DB9A /* HJWKInterfaceImage.m */,
+				EAA498D01AF7B5210092DB9A /* HJWKInterfaceImage.h */,
+				EAA498D11AF7B5210092DB9A /* HJWKInterfaceImage.m */,
 			);
 			name = HJWKInterfaceImage;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 				EAA498891AF7A2E20092DB9A /* ViewController.m in Sources */,
 				EAA498861AF7A2E20092DB9A /* AppDelegate.m in Sources */,
 				EAA498831AF7A2E20092DB9A /* main.m in Sources */,
-				EAA498CE1AF7A3840092DB9A /* HJWKInterfaceImage.m in Sources */,
+				EAA498D21AF7B5210092DB9A /* HJWKInterfaceImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA498B01AF7A31F0092DB9A /* InterfaceController.m in Sources */,
-				EAA498CF1AF7A3840092DB9A /* HJWKInterfaceImage.m in Sources */,
+				EAA498D31AF7B5210092DB9A /* HJWKInterfaceImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
